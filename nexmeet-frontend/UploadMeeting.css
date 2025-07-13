@@ -1,0 +1,154 @@
+/* Full screen container */
+.upload-container {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #e9dcc8, #f5f0e6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Centered card */
+  .upload-card {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  .upload-card h1 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Form styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+  }
+  
+  /* File upload area */
+  .file-upload {
+    margin-bottom: 20px;
+  }
+  
+  .file-drop-area {
+    border: 2px dashed #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .file-drop-area:hover {
+    border-color: #f59e0b;
+    background: rgba(245, 158, 11, 0.05);
+  }
+  
+  #file-upload {
+    display: none;
+  }
+  
+  .file-drop-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+  }
+  
+  .drop-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .file-types {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+  }
+  
+  /* Divider */
+  .or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #999;
+  }
+  
+  .or-divider::before,
+  .or-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .or-divider::before {
+    margin-right: 10px;
+  }
+  
+  .or-divider::after {
+    margin-left: 10px;
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 14px;
+    background-color: #f59e0b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #e58e0b;
+  }
+  
+  button:disabled {
+    background-color: #fcd34d;
+    cursor: not-allowed;
+  }
+  
+  /* Error message */
+  .error-message {
+    background-color: #fee2e2;
+    color: #dc2626;
+    padding: 12px;
+    border-left: 4px solid #dc2626;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }

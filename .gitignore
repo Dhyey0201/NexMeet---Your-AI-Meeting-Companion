@@ -1,0 +1,37 @@
+# === Root ===
+.env
+*.env
+
+# === Node ===
+node_modules/
+build/
+dist/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.idea/
+*.db
+
+# === OS ===
+.DS_Store
+
+# === Logs ===
+*.log
+
+# === Local Configs ===
+*.sqlite3
+*.bak
+
+# Model files
+backend/ai_model/model/checkpoint-*/
+backend/ai_model/model/*.safetensors
+backend/ai_model/model/*.pt
+
+# Uploads
+backend/uploads/*

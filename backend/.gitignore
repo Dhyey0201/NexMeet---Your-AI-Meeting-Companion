@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+venv/
+celerybeat-schedule
+*.log
+
+# Node.js (React)
+node_modules/
+build/
+dist/
+.env.local
+.env.development
+.env.production
+
+# OS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+backend/ai_model/model/checkpoint-*/
+backend/ai_model/model/*.safetensors
+backend/ai_model/model/*.pt
+
+# Uploads
+backend/uploads/*
