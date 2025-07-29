@@ -1,15 +1,15 @@
-# NexMeet 🎤🤖
+# NexMeet
 
 NexMeet is an AI-powered meeting assistant that performs transcription, summarization, emotion detection, and action item extraction from meeting audio files.
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Frontend:** React + TailwindCSS
 - **Backend:** FastAPI + PostgreSQL
 - **AI:** Transcription, Summarization, Emotion Detection
 - **Async Tasks:** Celery + Redis
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 1. Clone the repo:
 git clone https://github.com/yourusername/NexMeet.git
