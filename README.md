@@ -1,3 +1,6 @@
+Project Working Demo : https://drive.google.com/file/d/1PvqRnN7h0FXTMStAxmbOPVdcK-W2xhii/view?usp=sharing
+
+
 # NexMeet
 
 NexMeet is an AI-powered meeting assistant that performs transcription, summarization, emotion detection, and action item extraction from meeting audio files.
